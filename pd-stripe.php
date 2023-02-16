@@ -16,7 +16,7 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 
- //define( 'STRIPE_CLINET_KEY', 'sk_test_VFT8Bu2MQbX078mJgTCWxCW500yyJMEZaL' ); // test mode key
+ //define( 'STRIPE_CLINET_KEY', '' ); // test mode key
 
 require plugin_dir_path( __FILE__ ). 'vendor/autoload.php';
 require plugin_dir_path( __FILE__ ). 'pd-stripe-connect.php';
