@@ -15,8 +15,8 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-define( 'STRIPE_CLINET_KEY', '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' );
-// define( 'STRIPE_CLINET_KEY', 'sk_test_VFT8Bu2MQbX078mJgTCWxCW500yyJMEZaL' ); // test mode key
+
+ //define( 'STRIPE_CLINET_KEY', 'sk_test_VFT8Bu2MQbX078mJgTCWxCW500yyJMEZaL' ); // test mode key
 
 require plugin_dir_path( __FILE__ ). 'vendor/autoload.php';
 require plugin_dir_path( __FILE__ ). 'pd-stripe-connect.php';
